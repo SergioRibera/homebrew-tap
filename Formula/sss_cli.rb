@@ -2,13 +2,13 @@ class SssCli < Formula
   desc "Take pretty screenshot to your screen"
   homepage "https://github.com/SergioRibera/sss"
   if Hardware::CPU.type == :arm
-    url "https://github.com/SergioRibera/sss/releases/download/sss_cli/v0.1.2/sss_cli-aarch64-apple-darwin.tar.xz"
-    sha256 "0183f88be0c58454bcef08304bd400987cc1c45757be66af94ee6e1ba1a7c59d"
+    url "https://github.com/SergioRibera/sss/releases/download/sss_cli/v0.1.4/sss_cli-aarch64-apple-darwin.tar.xz"
+    sha256 "d37e8159db303e54d2ae5e8dd7645ff8c93c0093771e09300415dbbc702f6b24"
   else
-    url "https://github.com/SergioRibera/sss/releases/download/sss_cli/v0.1.2/sss_cli-x86_64-apple-darwin.tar.xz"
-    sha256 "de4359d5da6d9bdefe3aac79686f0f4e27398159cf4c118600fbdfb100e0861c"
+    url "https://github.com/SergioRibera/sss/releases/download/sss_cli/v0.1.4/sss_cli-x86_64-apple-darwin.tar.xz"
+    sha256 "7e3ad74e7927e77ca5f9aa270e3603c939b5a32bfb49de348a9c12b186c06710"
   end
-  version "0.1.2"
+  version "0.1.4"
   license "MIT OR Apache-2.0"
 
   def install
