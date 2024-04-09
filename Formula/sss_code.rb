@@ -1,14 +1,23 @@
 class SssCode < Formula
   desc "Take pretty screenshot to your code"
   homepage "https://github.com/SergioRibera/sss"
-  if Hardware::CPU.type == :arm
-    url "https://github.com/SergioRibera/sss/releases/download/sss_code/v0.1.8/sss_code-aarch64-apple-darwin.tar.xz"
-    sha256 "07199629a6f47321d24918e8c7e300f239cae1fbae516f854b23e1add16953a4"
-  else
-    url "https://github.com/SergioRibera/sss/releases/download/sss_code/v0.1.8/sss_code-x86_64-apple-darwin.tar.xz"
-    sha256 "4de2879b9f2f55f2bdc1ccebcf0188fae14cc2323bab4672835d1de0c1ac2ac5"
+  version "0.1.9"
+  on_macos do
+    on_arm do
+      url "https://github.com/SergioRibera/sss/releases/download/sss_code/v0.1.9/sss_code-aarch64-apple-darwin.tar.xz"
+      sha256 "89721264cf2f7e6ab6747ef961a2b1cd2abf9b5ddabd7d12f787e8cd2ac8e6d8"
+    end
+    on_intel do
+      url "https://github.com/SergioRibera/sss/releases/download/sss_code/v0.1.9/sss_code-x86_64-apple-darwin.tar.xz"
+      sha256 "823851c7848e3026a3340cd7f62b3c03c50a1413480362551d79b7ec0a64d2a1"
+    end
   end
-  version "0.1.8"
+  on_linux do
+    on_intel do
+      url "https://github.com/SergioRibera/sss/releases/download/sss_code/v0.1.9/sss_code-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "33c6f547a0b71ded943f66e200b54e12b81077f52376a5a01f638ca1fbb00a70"
+    end
+  end
   license "MIT OR Apache-2.0"
 
   def install
