@@ -1,14 +1,23 @@
 class SssCli < Formula
   desc "Take pretty screenshot to your screen"
   homepage "https://github.com/SergioRibera/sss"
-  if Hardware::CPU.type == :arm
-    url "https://github.com/SergioRibera/sss/releases/download/sss_cli/v0.1.4/sss_cli-aarch64-apple-darwin.tar.xz"
-    sha256 "d37e8159db303e54d2ae5e8dd7645ff8c93c0093771e09300415dbbc702f6b24"
-  else
-    url "https://github.com/SergioRibera/sss/releases/download/sss_cli/v0.1.4/sss_cli-x86_64-apple-darwin.tar.xz"
-    sha256 "7e3ad74e7927e77ca5f9aa270e3603c939b5a32bfb49de348a9c12b186c06710"
+  version "0.1.5"
+  on_macos do
+    on_arm do
+      url "https://github.com/SergioRibera/sss/releases/download/sss_cli/v0.1.5/sss_cli-aarch64-apple-darwin.tar.xz"
+      sha256 "204f9b8cbc500726f295c98a33c7e5548e9a9fb7effcf202d074b9b7de30ebc2"
+    end
+    on_intel do
+      url "https://github.com/SergioRibera/sss/releases/download/sss_cli/v0.1.5/sss_cli-x86_64-apple-darwin.tar.xz"
+      sha256 "391aacf55149ab88e7398213ac7f9ea299d7f0750eaf019168e50e425ba780bd"
+    end
   end
-  version "0.1.4"
+  on_linux do
+    on_intel do
+      url "https://github.com/SergioRibera/sss/releases/download/sss_cli/v0.1.5/sss_cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "3839b174f5d4fe5d76ec4deefb117b76dc753ce74f340edf8543802209560fcf"
+    end
+  end
   license "MIT OR Apache-2.0"
 
   def install
