@@ -4,7 +4,7 @@ This repository contains formulas for installing axo's projects using [Homebrew]
 ## Homebrew Packages
 
 ---
-### sss
+### sss - 0.1.5
 Take pretty screenshot to your screen
 > [!NOTE]
 > You can check the proyect [here](https://github.com/SergioRibera/sss)
@@ -13,7 +13,7 @@ brew install SergioRibera/tap/sss
 ```
 
 ---
-### sss_code
+### sss_code - 0.1.9
 Take pretty screenshot to your code
 > [!NOTE]
 > You can check the proyect [here](https://github.com/SergioRibera/sss)
