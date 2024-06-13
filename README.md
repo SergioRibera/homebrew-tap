@@ -4,6 +4,15 @@ This repository contains formulas for installing axo's projects using [Homebrew]
 ## Homebrew Packages
 
 ---
+### simplemoji - 0.2.0
+Fast Application for look your amazing emojis write in Rust
+> [!NOTE]
+> You can check the proyect [here](https://github.com/SergioRibera/Simplemoji)
+```bash
+brew install SergioRibera/tap/simplemoji
+```
+
+---
 ### sss - 0.1.5
 Take pretty screenshot to your screen
 > [!NOTE]
