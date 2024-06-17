@@ -9,7 +9,7 @@ Fast Application for look your amazing emojis write in Rust
 > [!NOTE]
 > You can check the proyect [here](https://github.com/SergioRibera/Simplemoji)
 ```bash
-brew install SergioRibera/tap/simplemoji
+brew install SergioRibera/homebrew-tap/simplemoji
 ```
 
 ---
@@ -18,7 +18,7 @@ Take pretty screenshot to your screen
 > [!NOTE]
 > You can check the proyect [here](https://github.com/SergioRibera/sss)
 ```bash
-brew install SergioRibera/tap/sss
+brew install SergioRibera/homebrew-tap/sss
 ```
 
 ---
@@ -27,6 +27,6 @@ Take pretty screenshot to your code
 > [!NOTE]
 > You can check the proyect [here](https://github.com/SergioRibera/sss)
 ```bash
-brew install SergioRibera/tap/sss_code
+brew install SergioRibera/homebrew-tap/sss_code
 ```
 
