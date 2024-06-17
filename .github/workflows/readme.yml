@@ -22,7 +22,7 @@ jobs:
             version=$(grep 'version "' $file | sed 's/version "//g;s/"$//g;s/^[ \\t]*//;')
             desc=$(grep 'desc "' $file | sed 's/desc "//g;s/"$//g;s/^[ \\t]*//;')
             repo=$(grep 'homepage "' $file | sed 's/homepage "//g;s/"$//g;s/^[ \\t]*//;')
-            echo -e "---\n### ${name} - ${version}\n${desc}\n> [!NOTE]\n> You can check the proyect [here](${repo})\n\`\`\`bash\nbrew install SergioRibera/tap/${name}\n\`\`\`\n" >>README.md
+            echo -e "---\n### ${name} - ${version}\n${desc}\n> [!NOTE]\n> You can check the proyect [here](${repo})\n\`\`\`bash\nbrew install SergioRibera/homebrew-tap/${name}\n\`\`\`\n" >>README.md
           done
       - name: Deploy
         env:
