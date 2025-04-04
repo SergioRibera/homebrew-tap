@@ -4,12 +4,16 @@ This repository contains formulas for installing axo's projects using [Homebrew]
 ## Homebrew Packages
 
 ---
-### simplemoji - 0.2.0
+### simplemoji" if OS.mac? && Hardware::CPU.arm?
+simplemoji" if OS.mac? && Hardware::CPU.intel?
+simplemoji" if OS.linux? && Hardware::CPU.intel? - 0.2.1
 Fast Application for look your amazing emojis write in Rust
 > [!NOTE]
 > You can check the proyect [here](https://github.com/SergioRibera/Simplemoji)
 ```bash
-brew install SergioRibera/homebrew-tap/simplemoji
+brew install SergioRibera/homebrew-tap/simplemoji" if OS.mac? && Hardware::CPU.arm?
+simplemoji" if OS.mac? && Hardware::CPU.intel?
+simplemoji" if OS.linux? && Hardware::CPU.intel?
 ```
 
 ---
