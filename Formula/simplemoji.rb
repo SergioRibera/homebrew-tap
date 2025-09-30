@@ -1,14 +1,10 @@
 class Simplemoji < Formula
   desc "Fast Application for look your amazing emojis write in Rust"
   homepage "https://github.com/SergioRibera/Simplemoji"
-  version "0.2.1"
-  if OS.mac?
-    url "https://github.com/SergioRibera/Simplemoji/releases/download/v0.2.1/simplemoji-x86_64-apple-darwin.tar.xz"
-    sha256 "1ace7d9dbcae96e35e97b9c6cde90f5471ce52d3cf774b362ce9ffc76799bf4d"
-  end
+  version "1.1.0"
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/SergioRibera/Simplemoji/releases/download/v0.2.1/simplemoji-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "4cf0686704bbb4c4eb10c3490847c1ebe85a911a0c6fa3d14cf99d20a132fdca"
+    url "https://github.com/SergioRibera/Simplemoji/releases/download/v1.1.0/simplemoji-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "71765e1c29c1f40f7dcf0f0527a6a0d7601769d35cda21fb763641e9364f41fd"
   end
   license any_of: ["MIT", "Apache-2.0"]
 
