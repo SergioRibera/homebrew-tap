@@ -1,25 +1,25 @@
 class Simplemoji < Formula
   desc "Fast Application for look your amazing emojis write in Rust"
   homepage "https://github.com/SergioRibera/Simplemoji"
-  version "1.1.1"
+  version "1.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/SergioRibera/Simplemoji/releases/download/v1.1.1/simplemoji-aarch64-apple-darwin.tar.xz"
-      sha256 "38bc3c21ab46ad9255c1b9a7948a4e8a56cf36dc0281cced32d5d60dc4dbaa11"
+      url "https://github.com/SergioRibera/Simplemoji/releases/download/v1.2.0/simplemoji-aarch64-apple-darwin.tar.xz"
+      sha256 "6457e763e6ec7bc151b4654a8b67238fabe34a6390ff7fc368a399fc9ff0e48b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/SergioRibera/Simplemoji/releases/download/v1.1.1/simplemoji-x86_64-apple-darwin.tar.xz"
-      sha256 "d3f959760260128a2fc0f9d5d1f44da17ed888650b6824652cfe4df5fc0bcef1"
+      url "https://github.com/SergioRibera/Simplemoji/releases/download/v1.2.0/simplemoji-x86_64-apple-darwin.tar.xz"
+      sha256 "29bcf96b5e60cfb638b475c5a49ae310f1ce433eac7d24ac570a05909d64f96f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/SergioRibera/Simplemoji/releases/download/v1.1.1/simplemoji-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "1d5bc536d86f362fb0ae967384ba79c3a900fa467e5c89d41850ca9d0ef1c85d"
+      url "https://github.com/SergioRibera/Simplemoji/releases/download/v1.2.0/simplemoji-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "79443ca16a0e69b98202bf67082bbe46760e29bdae90eb54a3956748bf29907d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/SergioRibera/Simplemoji/releases/download/v1.1.1/simplemoji-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "600c15f136ee6b47dbba145b078c872b5edf068955c505309cec57273511f709"
+      url "https://github.com/SergioRibera/Simplemoji/releases/download/v1.2.0/simplemoji-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d47733a43e578c27b2ab9aadf4dec6cd01580dba085feb635a0dc71389f0ef5a"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
