@@ -7,7 +7,7 @@ This repository contains formulas for installing axo's projects using [Homebrew]
 ### simplemoji" if OS.mac? && Hardware::CPU.arm?
 simplemoji" if OS.mac? && Hardware::CPU.intel?
 simplemoji" if OS.linux? && Hardware::CPU.arm?
-simplemoji" if OS.linux? && Hardware::CPU.intel? - 1.2.0
+simplemoji" if OS.linux? && Hardware::CPU.intel? - 1.2.1
 Fast Application for look your amazing emojis write in Rust
 > [!NOTE]
 > You can check the proyect [here](https://github.com/SergioRibera/Simplemoji)
