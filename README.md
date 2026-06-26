@@ -37,15 +37,11 @@ brew install SergioRibera/homebrew-tap/
 ```
 
 ---
-### sss_code" if OS.mac? && Hardware::CPU.arm?
-sss_code" if OS.mac? && Hardware::CPU.intel?
-sss_code" if OS.linux? && Hardware::CPU.intel? - 0.2.0
+###  - 0.3.1
 Take pretty screenshots of your code
 > [!NOTE]
 > You can check the proyect [here](https://github.com/SergioRibera/sss)
 ```bash
-brew install SergioRibera/homebrew-tap/sss_code" if OS.mac? && Hardware::CPU.arm?
-sss_code" if OS.mac? && Hardware::CPU.intel?
-sss_code" if OS.linux? && Hardware::CPU.intel?
+brew install SergioRibera/homebrew-tap/
 ```
 
