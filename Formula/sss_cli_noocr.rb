@@ -7,7 +7,7 @@ class SssCliNoocr < Formula
   on_macos do
     on_arm do
       url "https://github.com/SergioRibera/sss/releases/download/sss_cli/v0.2.1/sss-noocr-0.2.1-aarch64-darwin.tar.gz"
-      sha256 "c951f29646e65f774458ccfe708759258e07dc50ab914cd136af8c921e3c6cb6"
+      sha256 "d21d14d4bee166a2a31d9b28f13352b78ea44d5b9c9312beee797a561b8ada60"
     end
   end
 
