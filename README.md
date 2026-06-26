@@ -19,12 +19,21 @@ simplemoji" if OS.linux? && Hardware::CPU.intel?
 ```
 
 ---
-### sss - 0.1.5
-Take pretty screenshot to your screen
+###  - 0.2.1
+Take pretty screenshots of your screen with annotations + OCR
 > [!NOTE]
 > You can check the proyect [here](https://github.com/SergioRibera/sss)
 ```bash
-brew install SergioRibera/homebrew-tap/sss
+brew install SergioRibera/homebrew-tap/
+```
+
+---
+###  - 0.2.1
+Take pretty screenshots of your screen with annotations (no OCR)
+> [!NOTE]
+> You can check the proyect [here](https://github.com/SergioRibera/sss)
+```bash
+brew install SergioRibera/homebrew-tap/
 ```
 
 ---
