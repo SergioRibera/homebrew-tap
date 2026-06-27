@@ -7,7 +7,7 @@ class SssCli < Formula
   on_macos do
     on_arm do
       url "https://github.com/SergioRibera/sss/releases/download/sss_cli/v0.2.1/sss-0.2.1-aarch64-darwin.tar.gz"
-      sha256 "b07d819ad02f406fca166f4de446d63cea3bc2f1a8f548bb4b1986bfe8760db4"
+      sha256 "e35fe61b691357c7860a61206ba7538e0d87405a8b1aca26cf3fe9795f0acec6"
     end
   end
 
