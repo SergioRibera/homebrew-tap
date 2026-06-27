@@ -7,7 +7,7 @@ class SssCode < Formula
   on_macos do
     on_arm do
       url "https://github.com/SergioRibera/sss/releases/download/sss_code/v0.3.1/sss_code-0.3.1-aarch64-darwin.tar.gz"
-      sha256 "c7c1b65d02d90da4ebc1a527331b5be2e7091c3e4fc2cba1b8c476fb5e5bd550"
+      sha256 "38ab16857cd196f21f57d1e1bc38823ada937d083f5e4da1d3058580b635ee1e"
     end
   end
 
